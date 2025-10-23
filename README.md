@@ -1,7 +1,7 @@
 
 
 <p align="center"> <img src="https://github.com/Malate1/Malate1/blob/main/github3.gif" width="50%" height="50%" alt="Banner"> </p>
-# 👋 Hi, I'm Michael
+👋 Hi, I'm Michael
 
 Welcome to my GitHub profile!  
 I'm a **full-stack web developer** with a strong background in **PHP (CodeIgniter 3)**, **JavaScript/jQuery**, and **Bootstrap**.  
@@ -79,6 +79,17 @@ I build **data-driven, responsive, and automated web systems** that make workflo
 
 ---
 
+### 🕹️ GitHub Contribution Animation
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Malate1&theme=tokyo-night&hide_border=true&area=true" width="95%">
+</p>
+
+<p align="center">
+  <img src="https://github.com/Malate1/Malate1/blob/output/github-contribution-grid-snake.svg" width="95%">
+</p>
+
+---
 
 ## 📫 Connect with Me
 
