@@ -1,7 +1,7 @@
 
 
 <p align="center"> <img src="https://github.com/Malate1/Malate1/blob/main/github3.gif" width="50%" height="50%" alt="Banner"> </p>
-👋 Hi, I'm **Michael**
+👋 Hi, I'm Michael
 
 Welcome to my GitHub profile!  
 I'm a **full-stack web developer** with a strong background in **PHP (CodeIgniter 3)**, **JavaScript/jQuery**, and **Bootstrap**.  
