@@ -1,3 +1,6 @@
+
+
+<p align="center"> <img src="https://github.com/Malate1/Malate1/blob/main/github.gif" width="50%" height="50%" alt="Banner"> </p>
 # 👋 Hi, I'm Michael
 
 Welcome to my GitHub profile!  
