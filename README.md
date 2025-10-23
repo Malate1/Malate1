@@ -1,6 +1,6 @@
 
 
-<p align="center"> <img src="https://github.com/Malate1/Malate1/blob/main/github.gif" width="50%" height="50%" alt="Banner"> </p>
+<p align="center"> <img src="https://github.com/Malate1/Malate1/blob/main/github3.gif" width="50%" height="50%" alt="Banner"> </p>
 # 👋 Hi, I'm Michael
 
 Welcome to my GitHub profile!  
@@ -54,16 +54,31 @@ I build **data-driven, responsive, and automated web systems** that make workflo
 
 ---
 
-## 📈 GitHub Stats
+---
+
+### 🧰 Tech Toolbox
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=tokyonight&hide_border=true" width="48%" alt="Michael's GitHub stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=your-username&theme=tokyonight&hide_border=true" width="48%" alt="GitHub streak stats" />
+  <!-- Common tech via skillicons.dev -->
+  <img src="https://skillicons.dev/icons?i=php,laravel,js,jquery,html,css,bootstrap,mysql,git,vscode,linux" />
+  <br>
+  <!-- Custom or missing icons -->
+  <img src="https://img.shields.io/badge/CodeIgniter-FC390E?style=for-the-badge&logo=codeigniter&logoColor=white" />
+  <img src="https://img.shields.io/badge/AJAX-00599C?style=for-the-badge&logo=jquery&logoColor=white" />
+  <img src="https://img.shields.io/badge/APIs-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
 </p>
 
+---
+
+### 📊 GitHub Stats
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&theme=tokyonight&hide_border=true" width="48%" alt="Top languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Malate1&show_icons=true&theme=radical&count_private=true" alt="GitHub stats" height="160" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Malate1&theme=radical" alt="GitHub streak" height="160" />
 </p>
+
+---
+
 
 ## 📫 Connect with Me
 
@@ -72,14 +87,5 @@ I build **data-driven, responsive, and automated web systems** that make workflo
 
 ---
 
-### 🧾 Languages Used
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-
----
 
 ⭐ **If you like my work, consider following or starring a repo!**
