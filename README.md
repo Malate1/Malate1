@@ -53,7 +53,7 @@ I build **data-driven, responsive, and automated web systems** that make workflo
 
 ## 📫 Connect with Me
 
-- 💼 GitHub: [github.com/your-username](https://github.com/Malate1)  
+- 💼 GitHub: https://github.com/Malate1
 - 🧠 Open to collaboration on **PHP, API, or data automation** projects  
 
 ---
