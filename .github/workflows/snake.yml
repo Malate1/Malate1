@@ -1,61 +1,94 @@
-name: Generate Snake Animation
+name: 🐍 Matrix Neon Snake Animation
 
 on:
-  # Run automatically every 6 hours
   schedule:
-    - cron: "0 */6 * * *"
-  
-  # Allow manual trigger from Actions tab
+    - cron: "0 */4 * * *"  # Every 4 hours
   workflow_dispatch:
-  
-  # Run on pushes to main branch
   push:
-    branches:
-      - main
+    branches: [ main, master ]
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     
     steps:
-      # Checkout your repository
-      - name: Checkout repository
-        uses: actions/checkout@v3
-      
-      # Generate the snake animation
-      - name: Generate Snake Animation
-        uses: Platane/snk@v3
+      - name: ⚡ Checkout Repository
+        uses: actions/checkout@v4
         with:
-          # GitHub username
+          fetch-depth: 0
+
+      - name: 🐍 Generate Matrix Neon Snake
+        uses: Platane/snk@v3
+        id: snake
+        with:
           github_user_name: ${{ github.repository_owner }}
-          
-          # Output files
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.gif?color_snake=orange&color_dots=#bfd4f0,#80b3e6,#5494d9,#2d6bb8,#1a4b8c
+            # Matrix Classic - Green
+            dist/matrix-snake.svg?color_snake=#00ff41&color_dots=#0a0a0a,#0d1f0d,#1a3a1a,#2a5a2a,#00ff41
+            
+            # Neon Cyber - Pink/Blue
+            dist/neon-cyber-snake.svg?color_snake=#ff00ff&color_dots=#0a0a0a,#1a0a2e,#2d1a4a,#4a2a6a,#ff00ff
+            
+            # Ocean Neon - Blue/Cyan
+            dist/ocean-neon-snake.svg?color_snake=#00d4ff&color_dots=#0a0a0a,#0a1a2e,#1a3a5a,#2a5a8a,#00d4ff
+            
+            # Sunset Neon - Orange/Pink
+            dist/sunset-neon-snake.svg?color_snake=#ff6b35&color_dots=#0a0a0a,#2a0a0a,#4a1a0a,#6a2a1a,#ff6b35
+            
+            # Purple Haze - Purple
+            dist/purple-haze-snake.svg?color_snake=#9b59b6&color_dots=#0a0a0a,#1a0a2a,#2a1a4a,#4a2a6a,#9b59b6
+            
+            # Gold Edition - Gold
+            dist/gold-snake.svg?color_snake=#f1c40f&color_dots=#0a0a0a,#1a1a0a,#2a2a1a,#4a3a1a,#f1c40f
           
-          # Commit message
-          commit_message: "chore: generate contribution snake animation"
-          
-          # Branch to commit to
+          # Custom commit message with emoji
+          commit_message: "⚡ chore: generate matrix neon snake animation [skip ci]"
           commit_branch: output
-      
-      # Deploy to GitHub Pages (optional)
-      - name: Deploy to GitHub Pages
+
+      - name: 🚀 Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
           keep_files: true
-          commit_message: "chore: update snake animation"
-      
-      # Or commit directly to your main branch
-      - name: Commit to main branch
+          force_orphan: false
+          commit_message: "🤖 deploy: update matrix neon snake animation"
+
+      - name: 📊 Generate Status Badge
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          echo "🐍 Matrix Snake generated at $(date)" > dist/status.txt
+          echo "🎯 Status: ONLINE" >> dist/status.txt
+          echo "💾 Version: v3.0.0" >> dist/status.txt
+          echo "🎨 Theme: Matrix Neon" >> dist/status.txt
+
+      - name: ✅ Commit Status
+        run: |
+          git config --global user.name '🤖 Matrix-Bot'
+          git config --global user.email 'matrix-bot@github.com'
           git add dist/
-          git diff --staged --quiet || git commit -m "chore: update snake animation"
-          git push
+          git diff --staged --quiet || git commit -m "⚡ update: matrix snake animation & status"
+          git push origin output || echo "⚠️ No changes to push"
+
+      - name: 🎯 Notify Completion
+        run: |
+          echo "✅ Matrix Neon Snake animation generated successfully!"
+          echo "📁 Files available at:"
+          echo "  - https://raw.githubusercontent.com/${{ github.repository }}/output/matrix-snake.svg"
+          echo "  - https://raw.githubusercontent.com/${{ github.repository }}/output/neon-cyber-snake.svg"
+          echo "  - https://raw.githubusercontent.com/${{ github.repository }}/output/ocean-neon-snake.svg"
+          echo "  - https://raw.githubusercontent.com/${{ github.repository }}/output/sunset-neon-snake.svg"
+          echo "  - https://raw.githubusercontent.com/${{ github.repository }}/output/purple-haze-snake.svg"
+          echo "  - https://raw.githubusercontent.com/${{ github.repository }}/output/gold-snake.svg"
+
+      - name: 📈 Contribution Stats
+        run: |
+          echo "## 📊 Contribution Statistics" >> dist/stats.md
+          echo "" >> dist/stats.md
+          echo "| Metric | Value |" >> dist/stats.md
+          echo "|--------|-------|" >> dist/stats.md
+          echo "| Total Contributions | $(curl -s "https://api.github.com/users/${{ github.repository_owner }}" | jq '.public_repos')" >> dist/stats.md
+          echo "| Snake Version | v3.0.0 |" >> dist/stats.md
+          echo "| Theme | Matrix Neon Collection |" >> dist/stats.md
+          echo "| Last Updated | $(date) |" >> dist/stats.md
