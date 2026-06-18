@@ -1,0 +1,61 @@
+name: Generate Snake Animation
+
+on:
+  # Run automatically every 6 hours
+  schedule:
+    - cron: "0 */6 * * *"
+  
+  # Allow manual trigger from Actions tab
+  workflow_dispatch:
+  
+  # Run on pushes to main branch
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Checkout your repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      # Generate the snake animation
+      - name: Generate Snake Animation
+        uses: Platane/snk@v3
+        with:
+          # GitHub username
+          github_user_name: ${{ github.repository_owner }}
+          
+          # Output files
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.gif?color_snake=orange&color_dots=#bfd4f0,#80b3e6,#5494d9,#2d6bb8,#1a4b8c
+          
+          # Commit message
+          commit_message: "chore: generate contribution snake animation"
+          
+          # Branch to commit to
+          commit_branch: output
+      
+      # Deploy to GitHub Pages (optional)
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          keep_files: true
+          commit_message: "chore: update snake animation"
+      
+      # Or commit directly to your main branch
+      - name: Commit to main branch
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add dist/
+          git diff --staged --quiet || git commit -m "chore: update snake animation"
+          git push
