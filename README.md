@@ -50,7 +50,15 @@ I specialize in building **data-driven, responsive, and automated web systems** 
 </p>
 
 <p align="center">
-  <img src="https://github.com/Malate1/Malate1/blob/output/github-contribution-grid-snake.svg" width="95%" alt="Snake animation">
+  <img src="https://raw.githubusercontent.com/Malate1/Malate1/output/matrix-snake.svg" width="95%" alt="Matrix Snake" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Malate1/Malate1/output/neon-cyber-snake.svg" width="95%" alt="Neon Cyber Snake" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Malate1/Malate1/output/ocean-neon-snake.svg" width="95%" alt="Ocean Neon Snake" />
 </p>
 
 ---
