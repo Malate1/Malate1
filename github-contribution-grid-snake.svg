@@ -1,0 +1,247 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="100%">
+  <defs>
+    <style>
+      @keyframes snakeMove {
+        0% { transform: translateX(0) translateY(0); }
+        20% { transform: translateX(0) translateY(10px); }
+        40% { transform: translateX(10px) translateY(10px); }
+        60% { transform: translateX(10px) translateY(0); }
+        80% { transform: translateX(20px) translateY(0); }
+        100% { transform: translateX(0) translateY(0); }
+      }
+      
+      @keyframes eat {
+        0% { opacity: 0; transform: scale(0.8); }
+        50% { opacity: 1; transform: scale(1.2); }
+        100% { opacity: 0; transform: scale(0.8); }
+      }
+      
+      @keyframes pulse {
+        0%, 100% { opacity: 0.7; }
+        50% { opacity: 1; }
+      }
+      
+      .contribution-cell {
+        rx: 2px;
+        ry: 2px;
+      }
+      
+      .snake-body {
+        animation: snakeMove 3s ease-in-out infinite;
+      }
+      
+      .eating-effect {
+        animation: eat 1.5s ease-in-out infinite;
+      }
+      
+      .pulse-effect {
+        animation: pulse 2s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#0d1117" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" font-family="Arial, sans-serif" font-size="20" fill="#58a6ff" text-anchor="middle" font-weight="bold">
+    Contribution Snake Animation
+  </text>
+  
+  <!-- Weekday Labels -->
+  <g font-family="Arial, sans-serif" font-size="10" fill="#8b949e">
+    <text x="30" y="60">Mon</text>
+    <text x="30" y="85">Wed</text>
+    <text x="30" y="110">Fri</text>
+  </g>
+  
+  <!-- Month Labels -->
+  <g font-family="Arial, sans-serif" font-size="10" fill="#8b949e">
+    <text x="80" y="45">Jan</text>
+    <text x="180" y="45">Feb</text>
+    <text x="280" y="45">Mar</text>
+    <text x="380" y="45">Apr</text>
+    <text x="480" y="45">May</text>
+    <text x="580" y="45">Jun</text>
+    <text x="680" y="45">Jul</text>
+  </g>
+  
+  <!-- Contribution Grid -->
+  <g>
+    <!-- Week 1 -->
+    <rect x="60" y="50" width="12" height="12" fill="#0e4429" class="contribution-cell"/>
+    <rect x="60" y="65" width="12" height="12" fill="#006d32" class="contribution-cell"/>
+    <rect x="60" y="80" width="12" height="12" fill="#26a641" class="contribution-cell"/>
+    <rect x="60" y="95" width="12" height="12" fill="#39d353" class="contribution-cell"/>
+    <rect x="60" y="110" width="12" height="12" fill="#0e4429" class="contribution-cell"/>
+    
+    <!-- Week 2 -->
+    <rect x="75" y="50" width="12" height="12" fill="#006d32" class="contribution-cell"/>
+    <rect x="75" y="65" width="12" height="12" fill="#0e4429" class="contribution-cell"/>
+    <rect x="75" y="80" width="12" height="12" fill="#0e4429" class="contribution-cell"/>
+    <rect x="75" y="95" width="12" height="12" fill="#26a641" class="contribution-cell"/>
+    <rect x="75" y="110" width="12" height="12" fill="#006d32" class="contribution-cell"/>
+    
+    <!-- Week 3 -->
+    <rect x="90" y="50" width="12" height="12" fill="#26a641" class="contribution-cell"/>
+    <rect x="90" y="65" width="12" height="12" fill="#39d353" class="contribution-cell"/>
+    <rect x="90" y="80" width="12" height="12" fill="#006d32" class="contribution-cell"/>
+    <rect x="90" y="95" width="12" height="12" fill="#0e4429" class="contribution-cell"/>
+    <rect x="90" y="110" width="12" height="12" fill="#26a641" class="contribution-cell"/>
+    
+    <!-- Week 4 -->
+    <rect x="105" y="50" width="12" height="12" fill="#0e4429" class="contribution-cell"/>
+    <rect x="105" y="65" width="12" height="12" fill="#006d32" class="contribution-cell"/>
+    <rect x="105" y="80" width="12" height="12" fill="#26a641" class="contribution-cell"/>
+    <rect x="105" y="95" width="12" height="12" fill="#39d353" class="contribution-cell"/>
+    <rect x="105" y="110" width="12" height="12" fill="#006d32" class="contribution-cell"/>
+    
+    <!-- Week 5 -->
+    <rect x="120" y="50" width="12" height="12" fill="#006d32" class="contribution-cell"/>
+    <rect x="120" y="65" width="12" height="12" fill="#26a641" class="contribution-cell"/>
+    <rect x="120" y="80" width="12" height="12" fill="#0e4429" class="contribution-cell"/>
+    <rect x="120" y="95" width="12" height="12" fill="#0e4429" class="contribution-cell"/>
+    <rect x="120" y="110" width="12" height="12" fill="#006d32" class="contribution-cell"/>
+    
+    <!-- Week 6 -->
+    <rect x="135" y="50" width="12" height="12" fill="#39d353" class="contribution-cell"/>
+    <rect x="135" y="65" width="12" height="12" fill="#006d32" class="contribution-cell"/>
+    <rect x="135" y="80" width="12" height="12" fill="#26a641" class="contribution-cell"/>
+    <rect x="135" y="95" width="12" height="12" fill="#006d32" class="contribution-cell"/>
+    <rect x="135" y="110" width="12" height="12" fill="#0e4429" class="contribution-cell"/>
+    
+    <!-- Week 7 -->
+    <rect x="150" y="50" width="12" height="12" fill="#006d32" class="contribution-cell"/>
+    <rect x="150" y="65" width="12" height="12" fill="#0e4429" class="contribution-cell"/>
+    <rect x="150" y="80" width="12" height="12" fill="#0e4429" class="contribution-cell"/>
+    <rect x="150" y="95" width="12" height="12" fill="#26a641" class="contribution-cell"/>
+    <rect x="150" y="110" width="12" height="12" fill="#39d353" class="contribution-cell"/>
+    
+    <!-- Week 8 -->
+    <rect x="165" y="50" width="12" height="12" fill="#0e4429" class="contribution-cell"/>
+    <rect x="165" y="65" width="12" height="12" fill="#26a641" class="contribution-cell"/>
+    <rect x="165" y="80" width="12" height="12" fill="#006d32" class="contribution-cell"/>
+    <rect x="165" y="95" width="12" height="12" fill="#0e4429" class="contribution-cell"/>
+    <rect x="165" y="110" width="12" height="12" fill="#006d32" class="contribution-cell"/>
+    
+    <!-- Week 9 -->
+    <rect x="180" y="50" width="12" height="12" fill="#26a641" class="contribution-cell"/>
+    <rect x="180" y="65" width="12" height="12" fill="#39d353" class="contribution-cell"/>
+    <rect x="180" y="80" width="12" height="12" fill="#26a641" class="contribution-cell"/>
+    <rect x="180" y="95" width="12" height="12" fill="#006d32" class="contribution-cell"/>
+    <rect x="180" y="110" width="12" height="12" fill="#0e4429" class="contribution-cell"/>
+    
+    <!-- Week 10 -->
+    <rect x="195" y="50" width="12" height="12" fill="#006d32" class="contribution-cell"/>
+    <rect x="195" y="65" width="12" height="12" fill="#0e4429" class="contribution-cell"/>
+    <rect x="195" y="80" width="12" height="12" fill="#0e4429" class="contribution-cell"/>
+    <rect x="195" y="95" width="12" height="12" fill="#26a641" class="contribution-cell"/>
+    <rect x="195" y="110" width="12" height="12" fill="#006d32" class="contribution-cell"/>
+    
+    <!-- Week 11 -->
+    <rect x="210" y="50" width="12" height="12" fill="#39d353" class="contribution-cell"/>
+    <rect x="210" y="65" width="12" height="12" fill="#006d32" class="contribution-cell"/>
+    <rect x="210" y="80" width="12" height="12" fill="#26a641" class="contribution-cell"/>
+    <rect x="210" y="95" width="12" height="12" fill="#006d32" class="contribution-cell"/>
+    <rect x="210" y="110" width="12" height="12" fill="#0e4429" class="contribution-cell"/>
+    
+    <!-- Week 12 -->
+    <rect x="225" y="50" width="12" height="12" fill="#0e4429" class="contribution-cell"/>
+    <rect x="225" y="65" width="12" height="12" fill="#26a641" class="contribution-cell"/>
+    <rect x="225" y="80" width="12" height="12" fill="#0e4429" class="contribution-cell"/>
+    <rect x="225" y="95" width="12" height="12" fill="#0e4429" class="contribution-cell"/>
+    <rect x="225" y="110" width="12" height="12" fill="#006d32" class="contribution-cell"/>
+    
+    <!-- Week 13 -->
+    <rect x="240" y="50" width="12" height="12" fill="#006d32" class="contribution-cell"/>
+    <rect x="240" y="65" width="12" height="12" fill="#0e4429" class="contribution-cell"/>
+    <rect x="240" y="80" width="12" height="12" fill="#26a641" class="contribution-cell"/>
+    <rect x="240" y="95" width="12" height="12" fill="#39d353" class="contribution-cell"/>
+    <rect x="240" y="110" width="12" height="12" fill="#26a641" class="contribution-cell"/>
+    
+    <!-- Week 14 -->
+    <rect x="255" y="50" width="12" height="12" fill="#26a641" class="contribution-cell"/>
+    <rect x="255" y="65" width="12" height="12" fill="#006d32" class="contribution-cell"/>
+    <rect x="255" y="80" width="12" height="12" fill="#006d32" class="contribution-cell"/>
+    <rect x="255" y="95" width="12" height="12" fill="#0e4429" class="contribution-cell"/>
+    <rect x="255" y="110" width="12" height="12" fill="#0e4429" class="contribution-cell"/>
+    
+    <!-- Week 15 -->
+    <rect x="270" y="50" width="12" height="12" fill="#0e4429" class="contribution-cell"/>
+    <rect x="270" y="65" width="12" height="12" fill="#39d353" class="contribution-cell"/>
+    <rect x="270" y="80" width="12" height="12" fill="#26a641" class="contribution-cell"/>
+    <rect x="270" y="95" width="12" height="12" fill="#006d32" class="contribution-cell"/>
+    <rect x="270" y="110" width="12" height="12" fill="#006d32" class="contribution-cell"/>
+    
+    <!-- Continue pattern for more weeks... -->
+    <!-- Weeks 16-52 would continue here in full version -->
+  </g>
+  
+  <!-- Snake Body - Animated -->
+  <g class="snake-body">
+    <!-- Snake Head -->
+    <circle cx="100" cy="100" r="10" fill="#58a6ff">
+      <animate attributeName="cx" values="100;120;140;160;180;200;220;240;260;280;300;320;340;360;380;400;420;440;460;480;500;520;540;560;580;600;620;640;660;680;700;720;740;760;780;800;780;760;740;720;700;680;660;640;620;600;580;560;540;520;500;480;460;440;420;400;380;360;340;320;300;280;260;240;220;200;180;160;140;120;100" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="100;80;110;90;100;70;95;85;105;80;90;100;75;85;95;80;100;90;70;105;85;95;80;100;90;75;85;70;95;80;100;90;110;85;95;80;100;90;75;85;70;95;80;100;90;110;85;95;80;100;90;75;85;70;95;80;100;90;110;85;95;80;100;90;75;85;70;95;80;100" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Snake Eyes -->
+    <circle cx="103" cy="96" r="3" fill="white">
+      <animate attributeName="cx" values="103;123;143;163;183;203;223;243;263;283;303;323;343;363;383;403;423;443;463;483;503;523;543;563;583;603;623;643;663;683;703;723;743;763;783;803;783;763;743;723;703;683;663;643;623;603;583;563;543;523;503;483;463;443;423;403;383;363;343;323;303;283;263;243;223;203;183;163;143;123;103" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="96;76;106;86;96;66;91;81;101;76;86;96;71;81;91;76;96;86;66;101;81;91;76;96;86;71;81;66;91;76;96;86;106;81;91;76;96;86;71;81;66;91;76;96;86;106;81;91;76;96;86;71;81;66;91;76;96;86;106;81;91;76;96;86;71;81;66;91;76;96" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="106" cy="96" r="3" fill="white">
+      <animate attributeName="cx" values="106;126;146;166;186;206;226;246;266;286;306;326;346;366;386;406;426;446;466;486;506;526;546;566;586;606;626;646;666;686;706;726;746;766;786;806;786;766;746;726;706;686;666;646;626;606;586;566;546;526;506;486;466;446;426;406;386;366;346;326;306;286;266;246;226;206;186;166;146;126;106" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="96;76;106;86;96;66;91;81;101;76;86;96;71;81;91;76;96;86;66;101;81;91;76;96;86;71;81;66;91;76;96;86;106;81;91;76;96;86;71;81;66;91;76;96;86;106;81;91;76;96;86;71;81;66;91;76;96;86;106;81;91;76;96;86;71;81;66;91;76;96" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Snake Body Segments -->
+    <circle cx="90" cy="100" r="8" fill="#1f6feb" opacity="0.9">
+      <animate attributeName="cx" values="90;110;130;150;170;190;210;230;250;270;290;310;330;350;370;390;410;430;450;470;490;510;530;550;570;590;610;630;650;670;690;710;730;750;770;790;790;770;750;730;710;690;670;650;630;610;590;570;550;530;510;490;470;450;430;410;390;370;350;330;310;290;270;250;230;210;190;170;150;130;110;90" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="100;80;110;90;100;70;95;85;105;80;90;100;75;85;95;80;100;90;70;105;85;95;80;100;90;75;85;70;95;80;100;90;110;85;95;80;100;90;75;85;70;95;80;100;90;110;85;95;80;100;90;75;85;70;95;80;100;90;110;85;95;80;100;90;75;85;70;95;80;100;90;100" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="80" cy="100" r="8" fill="#1f6feb" opacity="0.8">
+      <animate attributeName="cx" values="80;100;120;140;160;180;200;220;240;260;280;300;320;340;360;380;400;420;440;460;480;500;520;540;560;580;600;620;640;660;680;700;720;740;760;780;780;760;740;720;700;680;660;640;620;600;580;560;540;520;500;480;460;440;420;400;380;360;340;320;300;280;260;240;220;200;180;160;140;120;100;80" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="100;80;110;90;100;70;95;85;105;80;90;100;75;85;95;80;100;90;70;105;85;95;80;100;90;75;85;70;95;80;100;90;110;85;95;80;100;90;75;85;70;95;80;100;90;110;85;95;80;100;90;75;85;70;95;80;100;90;110;85;95;80;100;90;75;85;70;95;80;100;90;100" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="70" cy="100" r="8" fill="#1f6feb" opacity="0.7">
+      <animate attributeName="cx" values="70;90;110;130;150;170;190;210;230;250;270;290;310;330;350;370;390;410;430;450;470;490;510;530;550;570;590;610;630;650;670;690;710;730;750;770;770;750;730;710;690;670;650;630;610;590;570;550;530;510;490;470;450;430;410;390;370;350;330;310;290;270;250;230;210;190;170;150;130;110;90;70" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="100;80;110;90;100;70;95;85;105;80;90;100;75;85;95;80;100;90;70;105;85;95;80;100;90;75;85;70;95;80;100;90;110;85;95;80;100;90;75;85;70;95;80;100;90;110;85;95;80;100;90;75;85;70;95;80;100;90;110;85;95;80;100;90;75;85;70;95;80;100;90;100" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="60" cy="100" r="8" fill="#1f6feb" opacity="0.6">
+      <animate attributeName="cx" values="60;80;100;120;140;160;180;200;220;240;260;280;300;320;340;360;380;400;420;440;460;480;500;520;540;560;580;600;620;640;660;680;700;720;740;760;760;740;720;700;680;660;640;620;600;580;560;540;520;500;480;460;440;420;400;380;360;340;320;300;280;260;240;220;200;180;160;140;120;100;80;60" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="100;80;110;90;100;70;95;85;105;80;90;100;75;85;95;80;100;90;70;105;85;95;80;100;90;75;85;70;95;80;100;90;110;85;95;80;100;90;75;85;70;95;80;100;90;110;85;95;80;100;90;75;85;70;95;80;100;90;110;85;95;80;100;90;75;85;70;95;80;100;90;100" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="50" cy="100" r="7" fill="#1f6feb" opacity="0.5">
+      <animate attributeName="cx" values="50;70;90;110;130;150;170;190;210;230;250;270;290;310;330;350;370;390;410;430;450;470;490;510;530;550;570;590;610;630;650;670;690;710;730;750;750;730;710;690;670;650;630;610;590;570;550;530;510;490;470;450;430;410;390;370;350;330;310;290;270;250;230;210;190;170;150;130;110;90;70;50" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="100;80;110;90;100;70;95;85;105;80;90;100;75;85;95;80;100;90;70;105;85;95;80;100;90;75;85;70;95;80;100;90;110;85;95;80;100;90;75;85;70;95;80;100;90;110;85;95;80;100;90;75;85;70;95;80;100;90;110;85;95;80;100;90;75;85;70;95;80;100;90;100" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="40" cy="100" r="7" fill="#1f6feb" opacity="0.4">
+      <animate attributeName="cx" values="40;60;80;100;120;140;160;180;200;220;240;260;280;300;320;340;360;380;400;420;440;460;480;500;520;540;560;580;600;620;640;660;680;700;720;740;740;720;700;680;660;640;620;600;580;560;540;520;500;480;460;440;420;400;380;360;340;320;300;280;260;240;220;200;180;160;140;120;100;80;60;40" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="100;80;110;90;100;70;95;85;105;80;90;100;75;85;95;80;100;90;70;105;85;95;80;100;90;75;85;70;95;80;100;90;110;85;95;80;100;90;75;85;70;95;80;100;90;110;85;95;80;100;90;75;85;70;95;80;100;90;110;85;95;80;100;90;75;85;70;95;80;100;90;100" dur="8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Trail Effect - Eating squares -->
+  <g class="eating-effect">
+    <rect x="100" y="100" width="12" height="12" fill="#39d353" opacity="0.8">
+      <animate attributeName="x" values="100;120;140;160;180;200;220;240;260;280;300;320;340;360;380;400;420;440;460;480;500;520;540;560;580;600;620;640;660;680;700;720;740;760;780;800;780;760;740;720;700;680;660;640;620;600;580;560;540;520;500;480;460;440;420;400;380;360;340;320;300;280;260;240;220;200;180;160;140;120;100" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="100;80;110;90;100;70;95;85;105;80;90;100;75;85;95;80;100;90;70;105;85;95;80;100;90;75;85;70;95;80;100;90;110;85;95;80;100;90;75;85;70;95;80;100;90;110;85;95;80;100;90;75;85;70;95;80;100;90;110;85;95;80;100;90;75;85;70;95;80;100;90;100" dur="8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  
+  <!-- Legend -->
+  <g transform="translate(30, 140)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" fill="#8b949e">Less</text>
+    <rect x="35" y="-8" width="12" height="12" fill="#0e4429" rx="2" ry="2"/>
+    <rect x="52" y="-8" width="12" height="12" fill="#006d32" rx="2" ry="2"/>
+    <rect x="69" y="-8" width="12" height="12" fill="#26a641" rx="2" ry="2"/>
+    <rect x="86" y="-8" width="12" height="12" fill="#39d353" rx="2" ry="2"/>
+    <text x="103" y="0" font-family="Arial, sans-serif" font-size="12" fill="#8b949e">More</text>
+  </g>
+  
+  <!-- Footer -->
+  <text x="400" y="175" font-family="Arial, sans-serif" font-size="11" fill="#8b949e" text-anchor="middle">
+    🐍 Snake animation eating contributions
+  </text>
+</svg>
