@@ -49,13 +49,13 @@ I specialize in building **data-driven, responsive, and automated web systems** 
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Malate1&theme=tokyo-night&hide_border=true&area=true&bg_color=0d1117&color=58a6ff&line=1f6feb&point=ffffff" width="95%">
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://raw.githubusercontent.com/Malate1/Malate1/output/matrix-snake.svg" width="95%" alt="Matrix Snake" />
 </p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Malate1/Malate1/output/neon-cyber-snake.svg" width="95%" alt="Neon Cyber Snake" />
-</p>
+</p> -->
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Malate1/Malate1/output/ocean-neon-snake.svg" width="95%" alt="Ocean Neon Snake" />
