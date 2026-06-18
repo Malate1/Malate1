@@ -81,6 +81,13 @@ I specialize in building **data-driven, responsive, and automated web systems** 
 
 ## 📌 Featured Projects
 
+### 🏪 LM SariHub – Sari-Sari Store POS System
+> A modern Point-of-Sale system designed for sari-sari stores with inventory management, sales tracking, and user authentication.
+> 
+> [![Live Demo](https://img.shields.io/badge/Live_Demo-vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://sarisari-pos.vercel.app/)
+> 
+> **Tech Stack:** React.js, Node.js, Supabase (PostgreSQL), JWT Authentication
+
 ### 💰 Remittance & Payments System
 > Automated upload, validation, and synchronization with ARIS API for seamless payment processing
 
