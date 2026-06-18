@@ -1,97 +1,148 @@
+<p align="center">
+  <img src="https://github.com/Malate1/Malate1/blob/main/github3.gif" width="60%" alt="Banner">
+</p>
 
-
-<p align="center"> <img src="https://github.com/Malate1/Malate1/blob/main/github3.gif" width="50%" height="50%" alt="Banner"> </p>
-👋 Hi, I'm Michael
+<h1 align="center">👋 Hi, I'm Michael</h1>
+<p align="center">
+  <em>Full-Stack Web Developer | Automation Enthusiast | Clean Code Advocate</em>
+</p>
 
 Welcome to my GitHub profile!  
-I'm a **full-stack web developer** with a strong background in **PHP (CodeIgniter 3)**, **JavaScript/jQuery**, and **Bootstrap**.  
-I build **data-driven, responsive, and automated web systems** that make workflows faster, cleaner, and smarter.
+I'm a **full-stack web developer** with a strong foundation in **PHP (CodeIgniter 3)**, **JavaScript/jQuery**, and **Bootstrap**.  
+I specialize in building **data-driven, responsive, and automated web systems** that transform complex workflows into seamless, efficient experiences.
 
 ---
 
 ### 🧰 Tech Toolbox
 
 <p align="center">
-  <!-- Common tech via skillicons.dev -->
-  <img src="https://skillicons.dev/icons?i=php,laravel,js,jquery,html,css,bootstrap,mysql,git,vscode,linux" />
-  <br>
-  <!-- Custom or missing icons -->
-  <img src="https://img.shields.io/badge/CodeIgniter-FC390E?style=for-the-badge&logo=codeigniter&logoColor=white" />
-  <img src="https://img.shields.io/badge/AJAX-00599C?style=for-the-badge&logo=jquery&logoColor=white" />
-  <img src="https://img.shields.io/badge/APIs-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+  <!-- Main tech stack -->
+  <img src="https://skillicons.dev/icons?i=php,laravel,js,jquery,react,html,css,bootstrap,mysql,git,vscode,linux" />
+  <br><br>
+  <!-- Specialized badges -->
+  <img src="https://img.shields.io/badge/CodeIgniter-EF4223?style=for-the-badge&logo=codeigniter&logoColor=white" />
+  <img src="https://img.shields.io/badge/AJAX-00758F?style=for-the-badge&logo=jquery&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/API_Integration-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+  <img src="https://img.shields.io/badge/DataTables-0769AD?style=for-the-badge&logo=datatables&logoColor=white" />
+  <img src="https://img.shields.io/badge/FPDF-00599C?style=for-the-badge&logo=php&logoColor=white" />
 </p>
 
 ---
 
-### 📊 GitHub Stats
+### 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Malate1&show_icons=true&theme=radical&count_private=true" alt="GitHub stats" height="160" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Malate1&theme=radical" alt="GitHub streak" height="160" />
-</p>
-
----
-
-### 🕹️ GitHub Contribution Animation
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Malate1&theme=tokyo-night&hide_border=true&area=true" width="95%">
+  <img src="https://github-readme-stats.vercel.app/api?username=Malate1&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="GitHub Stats" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Malate1&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="170" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/Malate1/Malate1/blob/output/github-contribution-grid-snake.svg" width="95%">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Malate1&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="170" />
 </p>
 
+---
 
-### 🧩 Backend
-- **PHP 5.6–8.x (CodeIgniter 3)** — my main framework for developing scalable web apps  
-- **MySQL / MS SQL** — database design, optimization, and complex query handling  
-- **API Integration** — connecting internal systems with external APIs (e.g., ARIS, custom ERP links)  
-- **FPDF / ReportLab** — generating professional reports and documents in PDF format  
+### 🕹️ Contribution Activity
 
-### 💡 Frontend
-- **JavaScript / jQuery** — dynamic UI, form validation, AJAX, and automation scripts  
-- **DataTables (v1.10+)** — creating rich, exportable, and filterable tables with totals and custom headers  
-- **Bootstrap 3 & 5** — responsive layouts, modals, and tabbed interfaces for desktop and mobile views  
-- **Select2 / SweetAlert** — enhanced form elements and alert interfaces  
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Malate1&theme=tokyo-night&hide_border=true&area=true&bg_color=0d1117&color=58a6ff&line=1f6feb&point=ffffff" width="95%">
+</p>
 
-### ⚙️ Tools & Techniques
-- **File Upload & Parsing (CSV/TXT)** — reading, validating, and importing structured data  
-- **Automation** — generating and uploading payments, remittance, and transaction data  
-- **Version Control (Git)** — managing clean commits and collaborative workflows  
-- **Data Visualization** — Chart.js (v1.x) for monthly and yearly reporting  
+<p align="center">
+  <img src="https://github.com/Malate1/Malate1/blob/output/github-contribution-grid-snake.svg" width="95%" alt="Snake animation">
+</p>
 
 ---
 
-## 📊 Featured Work
+### 💻 Backend Development
+- **PHP 5.6–8.x (CodeIgniter 3)** — Primary framework for building scalable, secure web applications
+- **MySQL / MS SQL** — Database architecture, optimization, and complex query execution
+- **API Integration** — Seamless internal/external API connections (ARIS, custom ERP systems)
+- **FPDF / ReportLab** — Professional PDF report generation with dynamic content
+- **RESTful Services** — Building and consuming REST APIs for data exchange
 
-- **Remittance & Payments System** — Automated upload, validation, and synchronization with ARIS API  
-- **Sales & Returns Dashboard** — Interactive charts with store/distribution filters  
-- **Dynamic Reporting Tools** — PDF and CSV exports with computed totals and responsive layouts  
-- **Responsive Form Interfaces** — Optimized for both mobile and desktop devices  
+### 🎨 Frontend Development
+- **JavaScript / jQuery** — Dynamic UI interactions, form validation, AJAX requests
+- **React.js** — Building modern, component-based user interfaces with state management
+- **DataTables (v1.10+)** — Interactive, exportable tables with totals and custom filtering
+- **Bootstrap 3 & 5** — Responsive, mobile-first layouts and UI components
+- **Select2 / SweetAlert** — Enhanced form elements and polished alert dialogs
+- **Chart.js** — Interactive data visualizations for reporting dashboards
 
----
-
-## 🌱 What I’m Currently Exploring
-- Upgrading legacy CodeIgniter apps to newer frameworks  
-- Enhancing UI/UX with modern JavaScript libraries  
-- Experimenting with AI and automation in business systems  
-
----
-
-## 🚀 Philosophy
-
-> "Code should not only work — it should *flow*.  
-> I aim to write clean, maintainable, and purpose-driven code that makes complex tasks feel simple."
-
----
-
-## 📫 Connect with Me
-
-- 💼 GitHub: https://github.com/Malate1
-- 🧠 Open to collaboration on **PHP, API, or data automation** projects  
+### 🛠️ Tools & Techniques
+- **File Processing** — CSV/TXT upload, parsing, validation, and data import
+- **Automation** — Automated payment generation, remittance processing, and data synchronization
+- **Version Control (Git)** — Organized commit history and collaborative development
+- **Performance Optimization** — Query optimization, caching, and code efficiency
+- **Security** — Input validation, CSRF protection, and secure authentication
 
 ---
 
+## 📌 Featured Projects
 
-⭐ **If you like my work, consider following or starring a repo!**
+### 💰 Remittance & Payments System
+> Automated upload, validation, and synchronization with ARIS API for seamless payment processing
+
+### 📊 Sales & Returns Dashboard
+> Interactive analytics with store/distribution filtering and Chart.js visualizations
+
+### 📄 Dynamic Reporting Engine
+> PDF/CSV exports with computed totals, responsive layouts, and custom formatting
+
+### 📱 Responsive Form Suite
+> Mobile-optimized interfaces with real-time validation and AJAX submissions
+
+---
+
+## 🌱 Current Focus
+
+- 🔄 Modernizing legacy CodeIgniter applications with React.js
+- 🎯 Enhancing UI/UX with modern frontend frameworks
+- 🤖 Exploring AI integration for business process automation
+- ☁️ Cloud deployment and containerization (Docker)
+
+---
+
+## 🚀 Development Philosophy
+
+> *"Great code is more than functional—it's elegant, maintainable, and makes complex tasks feel intuitive."*
+
+I believe in writing code that:
+- ✨ **Flows naturally** — Clean architecture and logical structure
+- 🔧 **Adapts gracefully** — Scalable and maintainable solutions
+- 📈 **Solves real problems** — Purpose-driven development
+- 🤝 **Collaborates effectively** — Clear documentation and team-friendly practices
+
+---
+
+## 📬 Let's Connect
+
+<p align="center">
+  <a href="https://github.com/Malate1">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://linkedin.com/in/your-profile">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:your.email@example.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <strong>Open to collaborations on PHP, React, API integration, and automation projects</strong>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Malate1&color=blueviolet&style=flat-square" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/Malate1?style=social" alt="GitHub followers" />
+</p>
+
+---
+
+⭐ **If you find my work valuable, consider starring a repository or following for updates!**
