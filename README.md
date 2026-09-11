@@ -8,7 +8,7 @@
 </p>
 
 Welcome to my GitHub profile!  
-I'm a **full-stack web developer** with a strong foundation in **PHP (CodeIgniter 3)**, **JavaScript/jQuery**, and **Bootstrap**.  
+I'm a **full-stack web developer** with a strong foundation in **PHP (CodeIgniter 3)**, **JavaScript/jQuery**, **React**, and **Bootstrap**.  
 I specialize in building **data-driven, responsive, and automated web systems** that transform complex workflows into seamless, efficient experiences.
 
 ---
@@ -16,10 +16,8 @@ I specialize in building **data-driven, responsive, and automated web systems** 
 ### 🧰 Tech Toolbox
 
 <p align="center">
-  <!-- Main tech stack -->
   <img src="https://skillicons.dev/icons?i=php,laravel,js,jquery,react,html,css,bootstrap,mysql,git,vscode,linux" />
   <br><br>
-  <!-- Specialized badges -->
   <img src="https://img.shields.io/badge/CodeIgniter-EF4223?style=for-the-badge&logo=codeigniter&logoColor=white" />
   <img src="https://img.shields.io/badge/AJAX-00758F?style=for-the-badge&logo=jquery&logoColor=white" />
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
@@ -49,14 +47,6 @@ I specialize in building **data-driven, responsive, and automated web systems** 
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Malate1&theme=tokyo-night&hide_border=true&area=true&bg_color=0d1117&color=58a6ff&line=1f6feb&point=ffffff" width="95%">
 </p>
 
-<!-- <p align="center">
-  <img src="https://raw.githubusercontent.com/Malate1/Malate1/output/matrix-snake.svg" width="95%" alt="Matrix Snake" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Malate1/Malate1/output/neon-cyber-snake.svg" width="95%" alt="Neon Cyber Snake" />
-</p> -->
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/Malate1/Malate1/output/ocean-neon-snake.svg" width="95%" alt="Ocean Neon Snake" />
 </p>
@@ -65,29 +55,37 @@ I specialize in building **data-driven, responsive, and automated web systems** 
 
 ### 💻 Backend Development
 - **PHP 5.6–8.x (CodeIgniter 3)** — Primary framework for building scalable, secure web applications
+- **Node.js / Express** — API proxies, serverless functions, and asynchronous background tasks
 - **MySQL / MS SQL** — Database architecture, optimization, and complex query execution
-- **API Integration** — Seamless internal/external API connections (ARIS, custom ERP systems)
+- **API Integration** — External API proxies (Clash of Clans API, ARIS, custom ERP systems)
 - **FPDF / ReportLab** — Professional PDF report generation with dynamic content
 - **RESTful Services** — Building and consuming REST APIs for data exchange
 
 ### 🎨 Frontend Development
 - **JavaScript / jQuery** — Dynamic UI interactions, form validation, AJAX requests
-- **React.js** — Building modern, component-based user interfaces with state management
+- **React.js (Vite)** — Modern component-based interfaces, state management, and real-time dashboarding
+- **Tailwind CSS & Bootstrap** — Responsive, modern layout engines and styled UI elements
 - **DataTables (v1.10+)** — Interactive, exportable tables with totals and custom filtering
-- **Bootstrap 3 & 5** — Responsive, mobile-first layouts and UI components
 - **Select2 / SweetAlert** — Enhanced form elements and polished alert dialogs
 - **Chart.js** — Interactive data visualizations for reporting dashboards
 
 ### 🛠️ Tools & Techniques
 - **File Processing** — CSV/TXT upload, parsing, validation, and data import
 - **Automation** — Automated payment generation, remittance processing, and data synchronization
+- **Deployment & Hosting** — Vercel serverless integration, Render cloud deployment, and CORS/proxy management
 - **Version Control (Git)** — Organized commit history and collaborative development
-- **Performance Optimization** — Query optimization, caching, and code efficiency
 - **Security** — Input validation, CSRF protection, and secure authentication
 
 ---
 
 ## 📌 Featured Projects
+
+### ⚔️ Clash Forge – Clan Management & Scout Tool
+> A comprehensive web analytics dashboard for Clash of Clans leaders and strategists. Features real-time player tracking, CWL/war statistics, and automated clan management workflows.
+> 
+> [![Live Demo](https://img.shields.io/badge/Live_Demo-vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://clash-forge-snowy.vercel.app/)
+> 
+> **Tech Stack:** React.js, Vite, Node.js/Express, Tailwind CSS, Clash of Clans REST API, Render
 
 ### 🏪 LM SariHub – Sari-Sari Store POS System
 > A modern Point-of-Sale system designed for sari-sari stores with inventory management, sales tracking, and user authentication.
@@ -105,9 +103,6 @@ I specialize in building **data-driven, responsive, and automated web systems** 
 ### 📄 Dynamic Reporting Engine
 > PDF/CSV exports with computed totals, responsive layouts, and custom formatting
 
-### 📱 Responsive Form Suite
-> Mobile-optimized interfaces with real-time validation and AJAX submissions
-
 ---
 
 ## 🌱 Current Focus
@@ -115,7 +110,7 @@ I specialize in building **data-driven, responsive, and automated web systems** 
 - 🔄 Modernizing legacy CodeIgniter applications with React.js
 - 🎯 Enhancing UI/UX with modern frontend frameworks
 - 🤖 Exploring AI integration for business process automation
-- ☁️ Cloud deployment and containerization (Docker)
+- ☁️ Cloud deployment and containerization (Docker, Render, Vercel)
 
 ---
 
